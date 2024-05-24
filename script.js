@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+    
     let sessionNumber = 0;
     let breakNumber = 0;
     let timer;
